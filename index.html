@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BLOOM Studio | Salão de Beleza Autoral</title>
+<meta name="description" content="BLOOM Studio — salão de beleza autoral especializado em cortes, coloração, maquiagem e tratamentos. Ambiente moderno, equipe especialista e atendimento premium.">
+<meta name="keywords" content="salão de beleza, cabeleireiro, coloração, maquiagem profissional, manicure, studio de beleza">
+<meta name="author" content="BLOOM Studio">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="BLOOM Studio | Salão de Beleza Autoral">
+<meta property="og:description" content="Cortes, coloração, tratamentos e maquiagem em um ambiente pensado para o seu bem-estar.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?q=80&w=1200&auto=format&fit=crop">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400;1,6..96,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='30' fill='%23120D0D'/%3E%3Ctext x='50' y='66' font-size='50' text-anchor='middle' fill='%23C79A4B' font-family='Georgia'%3EB%3C/text%3E%3C/svg%3E">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#topo" class="logo" aria-label="BLOOM Studio, página inicial">
+      <span class="logo__mark">B</span>
+      <span class="logo__text">BLOOM<em>Studio</em></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navegação principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#promocoes">Promoções</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="header__actions">
+      <a href="#contato" class="btn btn--gold btn--sm">Agendar horário</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="topo">
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <span class="blob blob--1" aria-hidden="true"></span>
+    <span class="blob blob--2" aria-hidden="true"></span>
+
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <p class="eyebrow reveal" data-reveal><span class="eyebrow__dot"></span> Studio de beleza autoral</p>
+        <h1 class="hero__title reveal" data-reveal>
+          Sua beleza,<br><em>lapidada</em> com precisão.
+        </h1>
+        <p class="hero__desc reveal" data-reveal>
+          Cortes, coloração, tratamentos e maquiagem em um ambiente pensado para
+          o seu bem-estar — da recepção ao resultado final.
+        </p>
+        <div class="hero__actions reveal" data-reveal>
+          <a href="#contato" class="btn btn--gold">Agendar horário</a>
+          <a href="#servicos" class="btn btn--outline">Ver serviços</a>
+        </div>
+
+        <div class="hero__stats reveal" data-reveal>
+          <div class="hstat">
+            <span class="hstat__num">4.9<svg viewBox="0 0 24 24" class="hstat__star"><path d="M12 2l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 16.9 6.1 20.1l1.3-6.6-4.9-4.6 6.6-.8L12 2z" fill="currentColor"/></svg></span>
+            <span class="hstat__label">Avaliação média</span>
+          </div>
+          <div class="hstat">
+            <span class="hstat__num">2.4k+</span>
+            <span class="hstat__label">Clientes atendidas</span>
+          </div>
+          <div class="hstat">
+            <span class="hstat__num">12</span>
+            <span class="hstat__label">Anos de experiência</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__media reveal" data-reveal>
+        <div class="hero__photo">
+          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1000&auto=format&fit=crop" alt="Cliente sendo atendida em salão de beleza moderno" loading="eager">
+        </div>
+        <div class="hero__badge">
+          <span class="hero__badge-icon">✦</span>
+          <div>
+            <strong>Ambiente premiado</strong>
+            <span>Design 2026 · Studio Bloom</span>
+          </div>
+        </div>
+        <span class="hero__ring" aria-hidden="true"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVIÇOS ========== -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow reveal" data-reveal><span class="eyebrow__dot"></span> O que oferecemos</p>
+        <h2 class="section__title reveal" data-reveal>Serviços <em>sob medida</em></h2>
+        <p class="section__desc reveal" data-reveal>
+          Cada atendimento começa com uma análise personalizada. Os valores abaixo
+          são de referência e podem variar conforme comprimento e técnica.
+        </p>
+      </div>
+
+      <div class="services">
+        <article class="s-card reveal" data-reveal>
+          <span class="s-card__icon">
+            <svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M8.5 8.5L19 19M8.5 15.5L19 5"/></svg>
+          </span>
+          <h3>Corte &amp; Finalização</h3>
+          <p>Cortes personalizados para seu tipo de rosto e textura, com escova ou finalização natural.</p>
+          <div class="s-card__foot">
+            <span class="s-card__price">a partir de R$ 120</span>
+            <span class="s-card__time">45 min</span>
+          </div>
+        </article>
+
+        <article class="s-card reveal" data-reveal>
+          <span class="s-card__icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C9 6 6 9.5 6 13a6 6 0 0012 0c0-3.5-3-7-6-11z"/></svg>
+          </span>
+          <h3>Coloração &amp; Mechas</h3>
+          <p>Técnicas de coloração global, mechas e balayage com produtos de baixo dano.</p>
+          <div class="s-card__foot">
+            <span class="s-card__price">a partir de R$ 280</span>
+            <span class="s-card__time">2h</span>
+          </div>
+        </article>
+
+        <article class="s-card reveal" data-reveal>
+          <span class="s-card__icon">
+            <svg viewBox="0 0 24 24"><path d="M12 3v6M12 3l-3 3M12 3l3 3M5 14a7 7 0 0014 0c0-2-1-3.5-2-5"/></svg>
+          </span>
+          <h3>Hidratação &amp; Tratamento</h3>
+          <p>Protocolos de reconstrução capilar sob medida para cada tipo de fio.</p>
+          <div class="s-card__foot">
+            <span class="s-card__price">a partir de R$ 150</span>
+            <span class="s-card__time">1h</span>
+          </div>
+        </article>
+
+        <article class="s-card reveal" data-reveal>
+          <span class="s-card__icon">
+            <svg viewBox="0 0 24 24"><path d="M4 20l5-1 10-10a2.5 2.5 0 00-4-4L5 15l-1 5z"/></svg>
+          </span>
+          <h3>Maquiagem Profissional</h3>
+          <p>Make social, noiva e editorial com produtos de alta fixação e cobertura.</p>
+          <div class="s-card__foot">
+            <span class="s-card__price">a partir de R$ 200</span>
+            <span class="s-card__time">1h</span>
+          </div>
+        </article>
+
+        <article class="s-card reveal" data-reveal>
+          <span class="s-card__icon">
+            <svg viewBox="0 0 24 24"><path d="M12 21s6-4.6 6-10a6 6 0 00-12 0c0 5.4 6 10 6 10z"/><circle cx="12" cy="11" r="2"/></svg>
+          </span>
+          <h3>Manicure &amp; Pedicure</h3>
+          <p>Alongamento, esmaltação em gel e nail art com higienização certificada.</p>
+          <div class="s-card__foot">
+            <span class="s-card__price">a partir de R$ 90</span>
+            <span class="s-card__time">1h</span>
+          </div>
+        </article>
+
+        <article class="s-card reveal" data-reveal>
+          <span class="s-card__icon">
+            <svg viewBox="0 0 24 24"><path d="M3 15c3-8 15-8 18 0" /><path d="M6 15l1-3M18 15l-1-3"/></svg>
+          </span>
+          <h3>Design de Sobrancelhas</h3>
+          <p>Design com henna ou linha, respeitando o formato natural do olhar.</p>
+          <div class="s-card__foot">
+            <span class="s-card__price">a partir de R$ 70</span>
+            <span class="s-card__time">30 min</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EQUIPE ========== -->
+  <section class="section section--tint" id="equipe">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow reveal" data-reveal><span class="eyebrow__dot"></span> Quem cuida de você</p>
+        <h2 class="section__title reveal" data-reveal>Nossa <em>equipe</em></h2>
+        <p class="section__desc reveal" data-reveal>
+          Profissionais em constante formação, com especialidades complementares
+          para cuidar de cada detalhe do seu visual.
+        </p>
+      </div>
+
+      <div class="team">
+        <article class="t-member reveal" data-reveal>
+          <div class="t-member__photo">
+            <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=700&auto=format&fit=crop" alt="Retrato de Bianca Lopes, cabeleireira" loading="lazy">
+          </div>
+          <h3>Bianca Lopes</h3>
+          <span class="t-member__role">Hair Stylist</span>
+          <p class="t-member__spec">Cortes &amp; texturas</p>
+          <div class="t-member__social">
+            <a href="#" aria-label="Instagram de Bianca Lopes">◎</a>
+            <a href="#" aria-label="WhatsApp de Bianca Lopes">✆</a>
+          </div>
+        </article>
+
+        <article class="t-member reveal" data-reveal>
+          <div class="t-member__photo">
+            <img src="https://images.unsplash.com/photo-1519415943484-9fa1873496d4?q=80&w=700&auto=format&fit=crop" alt="Retrato de Renata Sousa, colorista" loading="lazy">
+          </div>
+          <h3>Renata Sousa</h3>
+          <span class="t-member__role">Colorista</span>
+          <p class="t-member__spec">Coloração &amp; mechas</p>
+          <div class="t-member__social">
+            <a href="#" aria-label="Instagram de Renata Sousa">◎</a>
+            <a href="#" aria-label="WhatsApp de Renata Sousa">✆</a>
+          </div>
+        </article>
+
+        <article class="t-member reveal" data-reveal>
+          <div class="t-member__photo">
+            <img src="https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?q=80&w=700&auto=format&fit=crop" alt="Retrato de Diego Martins, maquiador" loading="lazy">
+          </div>
+          <h3>Diego Martins</h3>
+          <span class="t-member__role">Maquiador</span>
+          <p class="t-member__spec">Make social &amp; noiva</p>
+          <div class="t-member__social">
+            <a href="#" aria-label="Instagram de Diego Martins">◎</a>
+            <a href="#" aria-label="WhatsApp de Diego Martins">✆</a>
+          </div>
+        </article>
+
+        <article class="t-member reveal" data-reveal>
+          <div class="t-member__photo">
+            <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=700&auto=format&fit=crop" alt="Retrato de Camila Duarte, nail designer" loading="lazy">
+          </div>
+          <h3>Camila Duarte</h3>
+          <span class="t-member__role">Nail Designer</span>
+          <p class="t-member__spec">Alongamento &amp; nail art</p>
+          <div class="t-member__social">
+            <a href="#" aria-label="Instagram de Camila Duarte">◎</a>
+            <a href="#" aria-label="WhatsApp de Camila Duarte">✆</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERIA ========== -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <div class="section__head section__head--row">
+        <div>
+          <p class="eyebrow reveal" data-reveal><span class="eyebrow__dot"></span> Nosso trabalho</p>
+          <h2 class="section__title reveal" data-reveal>Galeria</h2>
+        </div>
+        <div class="filters reveal" data-reveal role="tablist" aria-label="Filtrar galeria">
+          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+          <button class="filter" data-filter="cortes" role="tab" aria-selected="false">Cortes</button>
+          <button class="filter" data-filter="coloracao" role="tab" aria-selected="false">Coloração</button>
+          <button class="filter" data-filter="maquiagem" role="tab" aria-selected="false">Maquiagem</button>
+          <button class="filter" data-filter="ambiente" role="tab" aria-selected="false">Ambiente</button>
+        </div>
+      </div>
+
+      <div class="gallery" id="galleryGrid">
+        <figure class="g-item reveal g-item--tall" data-reveal data-filter="ambiente">
+          <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?q=80&w=900&auto=format&fit=crop" alt="Interior moderno do salão com espelhos e poltronas" loading="lazy">
+          <figcaption>Studio Bloom — Recepção</figcaption>
+        </figure>
+        <figure class="g-item reveal" data-reveal data-filter="coloracao">
+          <img src="https://images.unsplash.com/photo-1595330061359-3502b6f6f0d1?q=80&w=800&auto=format&fit=crop" alt="Processo de coloração de cabelo em salão" loading="lazy">
+          <figcaption>Coloração personalizada</figcaption>
+        </figure>
+        <figure class="g-item reveal" data-reveal data-filter="maquiagem">
+          <img src="https://images.unsplash.com/photo-1470259078422-826894b933aa?q=80&w=800&auto=format&fit=crop" alt="Maquiagem profissional em close" loading="lazy">
+          <figcaption>Make editorial</figcaption>
+        </figure>
+        <figure class="g-item reveal g-item--tall" data-reveal data-filter="cortes">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=900&auto=format&fit=crop" alt="Cliente recebendo corte de cabelo moderno" loading="lazy">
+          <figcaption>Corte &amp; textura</figcaption>
+        </figure>
+        <figure class="g-item reveal" data-reveal data-filter="ambiente">
+          <img src="https://images.unsplash.com/photo-1571875257727-256c39da42af?q=80&w=800&auto=format&fit=crop" alt="Estação de styling com espelho iluminado" loading="lazy">
+          <figcaption>Estação de styling</figcaption>
+        </figure>
+        <figure class="g-item reveal" data-reveal data-filter="maquiagem">
+          <img src="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?q=80&w=800&auto=format&fit=crop" alt="Retrato com maquiagem dourada" loading="lazy">
+          <figcaption>Make dourado</figcaption>
+        </figure>
+        <figure class="g-item reveal" data-reveal data-filter="cortes">
+          <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=800&auto=format&fit=crop" alt="Detalhe de finalização de corte de cabelo" loading="lazy">
+          <figcaption>Finalização</figcaption>
+        </figure>
+        <figure class="g-item reveal" data-reveal data-filter="coloracao">
+          <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=800&auto=format&fit=crop" alt="Retrato de cliente com cabelo colorido" loading="lazy">
+          <figcaption>Resultado final</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DEPOIMENTOS ========== -->
+  <section class="section section--tint" id="depoimentos">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow reveal" data-reveal><span class="eyebrow__dot"></span> Quem já passou por aqui</p>
+        <h2 class="section__title reveal" data-reveal>Depoimentos</h2>
+      </div>
+
+      <div class="testimonials">
+        <figure class="d-card reveal" data-reveal>
+          <div class="d-card__stars" aria-label="Avaliação 5 de 5 estrelas">★★★★★</div>
+          <blockquote>Saí completamente renovada. A Bianca entendeu exatamente o que eu
+          queria só de olhar pro meu rosto — melhor corte que já fiz.</blockquote>
+          <figcaption>
+            <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=200&auto=format&fit=crop" alt="Retrato de cliente Fernanda Aquino" loading="lazy">
+            <div>
+              <span class="d-card__name">Fernanda Aquino</span>
+              <span class="d-card__meta">Corte &amp; finalização</span>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="d-card reveal" data-reveal>
+          <div class="d-card__stars" aria-label="Avaliação 5 de 5 estrelas">★★★★★</div>
+          <blockquote>Ambiente impecável e a coloração ficou exatamente no tom que eu
+          levei de referência. Virei cliente fiel.</blockquote>
+          <figcaption>
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop" alt="Retrato de cliente Juliana Prado" loading="lazy">
+            <div>
+              <span class="d-card__name">Juliana Prado</span>
+              <span class="d-card__meta">Coloração &amp; mechas</span>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="d-card reveal" data-reveal>
+          <div class="d-card__stars" aria-label="Avaliação 5 de 5 estrelas">★★★★★</div>
+          <blockquote>Fiz a make do meu casamento com o Diego e foi perfeita — durou a
+          festa inteira e nas fotos ficou impecável.</blockquote>
+          <figcaption>
+            <img src="https://images.unsplash.com/photo-1499651681375-8afc5a4db253?q=80&w=200&auto=format&fit=crop" alt="Retrato de cliente Patrícia Nogueira" loading="lazy">
+            <div>
+              <span class="d-card__name">Patrícia Nogueira</span>
+              <span class="d-card__meta">Maquiagem de noiva</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROMOÇÕES ========== -->
+  <section class="section section--dark" id="promocoes">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--light reveal" data-reveal><span class="eyebrow__dot"></span> Ofertas do mês</p>
+        <h2 class="section__title section__title--light reveal" data-reveal>Promoções <em>ativas</em></h2>
+        <p class="section__desc section__desc--light reveal" data-reveal>
+          Condições especiais por tempo limitado. Consulte disponibilidade ao agendar.
+        </p>
+      </div>
+
+      <div class="promos">
+        <article class="promo-card reveal" data-reveal>
+          <span class="promo-card__badge">-20%</span>
+          <h3>Pacote Noiva</h3>
+          <p>Prova de make + penteado + produção no dia do casamento.</p>
+          <div class="promo-card__price">
+            <span class="old">R$ 1.200</span>
+            <span class="new">R$ 960</span>
+          </div>
+          <a href="#contato" class="btn btn--outline-light btn--sm">Aproveitar oferta</a>
+        </article>
+
+        <article class="promo-card promo-card--highlight reveal" data-reveal>
+          <span class="promo-card__badge">Mais pedido</span>
+          <h3>Combo Corte + Hidratação</h3>
+          <p>Corte, finalização e tratamento de hidratação profunda em uma sessão.</p>
+          <div class="promo-card__price">
+            <span class="old">R$ 280</span>
+            <span class="new">R$ 210</span>
+          </div>
+          <a href="#contato" class="btn btn--gold btn--sm">Aproveitar oferta</a>
+        </article>
+
+        <article class="promo-card reveal" data-reveal>
+          <span class="promo-card__badge">Novidade</span>
+          <h3>Primeira Visita</h3>
+          <p>15% de desconto em qualquer serviço para quem nos conhece pela primeira vez.</p>
+          <div class="promo-card__price">
+            <span class="new">-15% no 1º serviço</span>
+          </div>
+          <a href="#contato" class="btn btn--outline-light btn--sm">Aproveitar oferta</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTATO ========== -->
+  <section class="section" id="contato">
+    <div class="container contact">
+      <div class="contact__info reveal" data-reveal>
+        <p class="eyebrow"><span class="eyebrow__dot"></span> Fale com a gente</p>
+        <h2 class="section__title">Vamos agendar<br>seu próximo <em>horário</em>?</h2>
+        <p class="section__desc">
+          Preencha o formulário ou entre em contato diretamente. Respondemos em
+          até algumas horas durante o expediente.
+        </p>
+
+        <ul class="contact__list">
+          <li><span>Telefone / WhatsApp</span>+55 (11) 98212-4470</li>
+          <li><span>E-mail</span>contato@bloomstudio.com.br</li>
+          <li><span>Endereço</span>Rua Oscar Freire, 1120 — Jardins, São Paulo — SP</li>
+        </ul>
+
+        <div class="contact__hours">
+          <h4>Horário de atendimento</h4>
+          <div class="contact__hours-row"><span>Terça a sexta</span><span>9h às 20h</span></div>
+          <div class="contact__hours-row"><span>Sábado</span><span>9h às 18h</span></div>
+          <div class="contact__hours-row"><span>Domingo e segunda</span><span>Fechado</span></div>
+        </div>
+      </div>
+
+      <form class="contact__form reveal" data-reveal id="contactForm" onsubmit="return false;">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+          </div>
+          <div class="form-field">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="servico">Serviço de interesse</label>
+          <select id="servico" name="servico">
+            <option>Corte &amp; Finalização</option>
+            <option>Coloração &amp; Mechas</option>
+            <option>Hidratação &amp; Tratamento</option>
+            <option>Maquiagem Profissional</option>
+            <option>Manicure &amp; Pedicure</option>
+            <option>Design de Sobrancelhas</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte um pouco sobre o que você procura..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--gold btn--block" id="formSubmit">Enviar solicitação</button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ========== RODAPÉ ========== -->
+<footer class="footer">
+  <div class="container footer__top">
+    <div class="footer__brand">
+      <a href="#topo" class="logo logo--footer">
+        <span class="logo__mark">B</span>
+        <span class="logo__text">BLOOM<em>Studio</em></span>
+      </a>
+      <p>Studio de beleza autoral. Cortes, coloração, tratamentos e maquiagem
+      em um ambiente pensado para o seu bem-estar.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="WhatsApp">✆</a>
+      </div>
+    </div>
+
+    <nav class="footer__col">
+      <h4>Navegação</h4>
+      <a href="#servicos">Serviços</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#promocoes">Promoções</a>
+    </nav>
+
+    <nav class="footer__col">
+      <h4>Institucional</h4>
+      <a href="#">Sobre o Bloom</a>
+      <a href="#">Trabalhe conosco</a>
+      <a href="#">Política de privacidade</a>
+      <a href="#">Termos de uso</a>
+    </nav>
+
+    <div class="footer__col footer__newsletter">
+      <h4>Novidades &amp; promoções</h4>
+      <p>Receba condições exclusivas direto no seu e-mail.</p>
+      <form onsubmit="return false;" class="newsletter">
+        <input type="email" placeholder="Seu melhor e-mail" aria-label="E-mail para newsletter" required>
+        <button type="submit" aria-label="Inscrever-se">→</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <p>© <span id="year"></span> BLOOM Studio. Todos os direitos reservados.</p>
+    <p>Projeto de portfólio — todas as marcas e pessoas são fictícias.</p>
+  </div>
+</footer>
+
+<a href="#contato" class="fab-schedule reveal" data-reveal aria-label="Agendar horário rápido">
+  <span class="fab-schedule__icon">✆</span>
+  <span class="fab-schedule__text">Agendar</span>
+</a>
+
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+  <svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
